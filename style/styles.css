@@ -1,0 +1,468 @@
+
+/*--------------------------------------------------*/
+/*------------------header--------------------------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.div_header_padre{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.div_title{
+    display: flex;
+    padding-right: 66px;
+}
+
+.div_navegacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.color_list{
+    color: white;
+    font-size: 15px;
+}
+
+.color_multimedia{
+    color: rgb(69, 151, 228);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.color_diseño{
+    color: white;
+    font-size: 25px; 
+    margin-right: 10px;
+}
+
+.li_diseño{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+li a:hover{
+    text-decoration: none;
+    color: rgb(69, 151, 228);
+}
+
+
+hr{
+    width: 100%;
+    height: 5px;
+    border: 1px;
+    background-color: rgb(69, 151, 228);
+}
+
+
+
+/*---------------------------------------------------*/
+/*---------------------body--------------------------*/
+
+/*--------------style first part--------------------------*/
+
+.div_fondo1{
+    background-image: url(../img/cabecera.jpg);
+    height: 80vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div_padre_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_index_parrf{
+    margin-top: 28%;
+    text-align: center;
+    background-position: center;
+}
+
+.titulo_color1{
+    color: white;
+    font-size: 50px;
+}
+
+.color_text1{
+    color: white;
+    font-size: 25px;
+}
+/*---------contenedor email-------*/
+
+.div_contendor_fondo{
+    background-color: rgb(42, 40, 40);
+}
+
+.div_contenedor_padre_email{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.color_subscribete{
+    color: white;
+    font-size: 25px;
+}
+
+.div_subscribete{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+}
+
+.div_email{
+    width: 55vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.input_email{
+    margin-right: 5px;
+    height: 75%;
+    width: 60%;
+}
+
+.button_email{
+    background-color: rgb(255, 73, 17);
+    border: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.color_button{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+/*--------- temas --------*/
+
+.div_contenedor_parrafos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.div_contenedores_parrf{
+    padding-top: 5%;
+    padding-bottom: 5% ;
+}
+
+/*------------footer ---------*/
+
+footer{
+    background-color:rgb(69, 151, 228);
+}
+
+.div_padre_footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_copy{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.color_copy{
+    color: white;
+    font-size: 20px;
+}
+
+/*---------------------------------*/
+/*-----------nosotros--------------*/
+
+.body_padre_nosotros{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13%;
+    padding-bottom:4%;
+}
+
+.div_contenedor_text{
+    width: 42%;
+}
+
+.div_content_parrf1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.div_content_parrf2{
+    background-color: rgb(51, 51, 51);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.div_contenedor_parrf3{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+    width: 25%;
+    height: 20%;
+}
+
+.color_parrf{
+    color: white;
+}
+
+.img_nosotros{
+    max-width: 100%;
+}
+
+/*----------------------------------*/
+/*------------servicios------------*/
+
+.body_padre_servicios{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 13%;
+    padding-bottom: 10%;
+}
+
+.div_parrf_servicios{
+    background-color: #c7c2c2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/*-----------------------------------*/
+/*------------contactos--------------*/
+
+.body_padre_contactos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+    padding-bottom: 12%;
+}
+
+.div_width_contenedor1{
+    width: 50%;
+    height: 50%;
+}
+
+.style_input{
+    width: 100%;
+    height: 5vh;
+}
+
+.style_caja{
+    width: 100%;
+}
+
+.div_button_contacto{
+    text-align: center;
+}
+
+.button_contacto{
+    background-color: rgb(255, 73, 17);
+    border: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.color_button{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    
+}
+
+.div_width_contenedor2{
+    width: 20%;
+}
+
+.img_google_maps{
+    width: 100%;
+}
+
+.div_contenedor_parrf3_version2{
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+
+/*-----------------------------------------*/
+/*-------------media quarie----------------*/
+
+@media screen and (max-width:1450px){
+    .body_padre_contactos{
+        padding-top:18% ;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (max-width:1250px){
+    .body_padre_nosotros{
+        padding-top: 15% ;
+        padding-bottom: 15%;
+    }
+    .body_padre_servicios{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .body_padre_contactos{
+        padding-top: 20%;
+        padding-bottom: 25%;
+    }
+    .div_index_parrf{
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width:950px){
+    .color_subscribete{
+        font-size: 20px;
+    }
+    .input_email{
+        width: 50%;
+    }
+
+    .div_email{
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width:850px){
+    .div_header_padre{
+        padding: 15px;
+    }
+    .div_title{
+        padding-right: 0px;
+    }
+    .div_header_padre{
+        justify-content: space-between;
+    }
+    .color_diseño{
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .color_multimedia{
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .li_diseño{
+        margin-right:unset ;
+        margin-left:unset ;
+    }
+    .div_index_parrf{
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width:725px){
+
+    .div_subscribete{
+        padding-left: unset;
+    }
+
+    .input_email{
+        width: 45%;
+    }
+
+    .div_email{
+        width: 30vh;
+    }
+
+    .div_contenedor_parrafos{
+        flex-direction: column;
+    }
+
+    .body_padre_nosotros{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_contenedor_parrf3{
+        margin-top: 30px;
+        width: 75%;
+    }
+
+    .div_contenedor_text{
+        width: 80%;
+    }
+    .body_padre_servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body_padre_contactos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_width_contenedor1{
+        width: 80%;
+    }
+    .div_width_contenedor2{
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:635px){
+    .div_header_padre{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .color_diseño{
+        font-size: 25px;
+    }
+
+    .color_multimedia{
+        font-size: 25px;
+    }
+
+    .div_navegacion{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .div_title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .div_contenedor_padre_email{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .div_subscribete{
+        padding-top: unset;
+        padding-bottom: unset;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .div_email{
+        padding-top: unset;
+        padding-bottom: unset;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
